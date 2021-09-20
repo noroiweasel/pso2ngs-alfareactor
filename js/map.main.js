@@ -128,6 +128,16 @@ var map_app = new nekoapp({
                 }
             }
         },
+        headerPotElement: {																	//  Element for header logo
+            tag: "map-logo",
+            prototype: {
+                setText: function(){
+                    if (this.className !== "navbar-brand")
+                    this.className = "navbar-brand"
+                    this.innerHTML = map_app.locale.strings.output;
+                }
+            }
+        },
 		headerNavigationElement: {																//  Element for header navigation
 			tag: "map-navigation",
 			prototype: {}
@@ -1659,6 +1669,7 @@ var map_app = new nekoapp({
             },
             onLocaleChange: function(){
                 document.title = map_app.locale.strings.language_title;
+                document.title = map_app.locale.strings.output;
                 map_app.modules.map_header.children[0].children[0].setText();
                 
                 this.moduleContents.menu_landmarksButton_cocoon_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapCocoonTitle)
@@ -1766,6 +1777,7 @@ map_app.preferences.events.onAppInit = new nekoapp.event({
 	target: map_app,
 	oninit: function() {
         document.title = map_app.locale.strings.language_title;
+        document.title = map_app.locale.strings.output;
         map_app.modules.map_header.className = "navbar navbar-expand-lg navbar-dark";
         map_app.modules.map_header.children[0].children[0].setText();
         document.body.className = "bg-secondary";
