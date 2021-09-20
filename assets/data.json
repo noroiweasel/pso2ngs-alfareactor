@@ -301,6 +301,28 @@
 				{"coordinates":[596,4157],"tooltip":true,"id":"datapod-18","markable":true},
 				{"coordinates":[2649,4174],"tooltip":true,"id":"datapod-19","markable":true},
 				{"coordinates":[1802,5408],"tooltip":true,"id":"datapod-20","markable":true}
+			],
+			"alphareactor": [
+				{"coordinates":[5951,2027],"tooltip":true,"id":"datapod-1","markable":true},
+				{"coordinates":[5469,1807],"tooltip":true,"id":"datapod-2","markable":true},
+				{"coordinates":[5010,1784],"tooltip":true,"id":"datapod-3","markable":true},
+				{"coordinates":[4543,1866],"tooltip":true,"id":"datapod-4","markable":true},
+				{"coordinates":[4311,2597],"tooltip":true,"id":"datapod-5","markable":true},
+				{"coordinates":[4546,3703],"tooltip":true,"id":"datapod-6","markable":true},
+				{"coordinates":[4398,4815],"tooltip":true,"id":"datapod-7","markable":true},
+				{"coordinates":[4261,5546],"tooltip":true,"id":"datapod-8","markable":true},
+				{"coordinates":[3741,4245],"tooltip":true,"id":"datapod-9","markable":true},
+				{"coordinates":[3568,2944],"tooltip":true,"id":"datapod-10","markable":true},
+				{"coordinates":[3287,3078],"tooltip":true,"id":"datapod-11","markable":true},
+				{"coordinates":[2832,3130],"tooltip":true,"id":"datapod-12","markable":true},
+				{"coordinates":[2300,3762],"tooltip":true,"id":"datapod-13","markable":true},
+				{"coordinates":[2199,3209],"tooltip":true,"id":"datapod-14","markable":true},
+				{"coordinates":[2159,3675],"tooltip":true,"id":"datapod-15","markable":true},
+				{"coordinates":[1252,4144],"tooltip":true,"id":"datapod-16","markable":true},
+				{"coordinates":[641,3909],"tooltip":true,"id":"datapod-17","markable":true},
+				{"coordinates":[596,4157],"tooltip":true,"id":"datapod-18","markable":true},
+				{"coordinates":[2649,4174],"tooltip":true,"id":"datapod-19","markable":true},
+				{"coordinates":[1802,5408],"tooltip":true,"id":"datapod-20","markable":true}
 			]
 		}
 	},
