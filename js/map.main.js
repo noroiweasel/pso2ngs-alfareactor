@@ -4,7 +4,7 @@ var map_app = new nekoapp({
         nekoappID: "18",
         applicationTitle: "PSO2NGS alfariactor Interactive Map",
         applicationVersion: "v2.0",
-        applicationURL: "//map.phantasystar.ru/"
+        applicationURL: "//noroiweasel.github.io/pso2ngs-alfareactor/"
     },
     applicationStylesheets: {
         default: "css/map.main.css",
@@ -1177,7 +1177,7 @@ var map_app = new nekoapp({
                                                 "data-bs-placement": "bottom",
                                                 "data-bs-html": "true"
                                             },
-                                            text: "<img width='48px' src='assets/markers/other/dataPod.png'>"
+                                            text: "<img width='48px' src='assets/markers/other/alphaReactor.png'>"
                                         }),
                             menu_enemy_body: nekoapp.create.element(map_app,"div",{
                                     class: "my-3"
