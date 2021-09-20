@@ -1787,5 +1787,4 @@ map_app.preferences.events.onAppInit = new nekoapp.event({
 nekoapp.system.scripts.add({application:map_app, url: "js/bootstrap.bundle.min.js"});
 nekoapp.system.scripts.add({application:map_app, url: "js/leaflet.js"});
 nekoapp.system.scripts.add({application:map_app, url: "js/map.js"});
-nekoapp.system.scripts.add({application:map_app, url: "js/prot.js"});
 nekoapp.system.init(map_app);
