@@ -280,7 +280,7 @@
 			]
 		},
 		"other": {
-			"datapod": [
+			"alphareactor": [
 				{"coordinates":[5951,2027],"tooltip":true,"id":"datapod-1","markable":true},
 				{"coordinates":[5469,1807],"tooltip":true,"id":"datapod-2","markable":true},
 				{"coordinates":[5010,1784],"tooltip":true,"id":"datapod-3","markable":true},
@@ -301,8 +301,8 @@
 				{"coordinates":[596,4157],"tooltip":true,"id":"datapod-18","markable":true},
 				{"coordinates":[2649,4174],"tooltip":true,"id":"datapod-19","markable":true},
 				{"coordinates":[1802,5408],"tooltip":true,"id":"datapod-20","markable":true}
-			],
-			"alphareactor": [
+			],		
+			"datapod": [
 				{"coordinates":[5951,2027],"tooltip":true,"id":"datapod-1","markable":true},
 				{"coordinates":[5469,1807],"tooltip":true,"id":"datapod-2","markable":true},
 				{"coordinates":[5010,1784],"tooltip":true,"id":"datapod-3","markable":true},
@@ -790,8 +790,8 @@
 		},
 		"checked": {
 			"redBox": [],
-			"datapod": [],
-			"alphareactor": []
+			"alphareactor": [],
+			"datapod": []
 		}
 	}
 }
