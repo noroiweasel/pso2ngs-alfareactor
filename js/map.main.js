@@ -4,7 +4,7 @@ var map_app = new nekoapp({
         nekoappID: "18",
         applicationTitle: "PSO2NGS alfariactor Interactive Map",
         applicationVersion: "v2.0",
-        applicationURL: "//noroiweasel.github.io/pso2ngs-alfareactor/"
+        applicationURL: "//noroiweasel.github.io/pso2ngs-alphareactor/"
     },
     applicationStylesheets: {
         default: "css/map.main.css",
@@ -1161,7 +1161,7 @@ var map_app = new nekoapp({
                                     menu_otherButton_group: nekoapp.create.element(map_app,"button-group",{
                                         class: "d-flex justify-content-center",
                                     }),
-                                        /*menu_otherButton_alfareactor_1: nekoapp.create.element(map_app,"input",{
+                                        menu_otherButton_alphareactor_1: nekoapp.create.element(map_app,"input",{
                                             class: "btn-check",
                                             id: "datapodCheckbox",
                                             attr: {
@@ -1169,7 +1169,7 @@ var map_app = new nekoapp({
                                                 "autocomplete": "off"
                                             }
                                         }),
-                                        menu_otherButton_alfareactor_1: nekoapp.create.element(map_app,"label",{
+                                        menu_otherButton_alphareactor_1: nekoapp.create.element(map_app,"label",{
                                             class: "btn btn-outline-custom-blue mx-1",
                                             attr: {
                                                 "for": "datapodCheckbox",
@@ -1178,7 +1178,7 @@ var map_app = new nekoapp({
                                                 "data-bs-html": "true"
                                             },
                                             text: "<img width='48px' src='assets/markers/other/alphaReactor.png'>"
-                                        }),*/
+                                        }),
                                         menu_otherButton_datapod_2: nekoapp.create.element(map_app,"input",{
                                             class: "btn-check",
                                             id: "datapodCheckbox",
@@ -1332,7 +1332,7 @@ var map_app = new nekoapp({
                                 elements.map_menu_body.appendChild(elements.menu_other_body)
                                     elements.menu_other_body.appendChild(elements.menu_other_desc)
                                     elements.menu_other_body.appendChild(elements.menu_otherButton_group)
-                                        /*elements.menu_otherButton_group.appendChild(elements.menu_otherButton_alfareactor_1)*/
+                                        elements.menu_otherButton_group.appendChild(elements.menu_otherButton_alphareactor_1)
                                         elements.menu_otherButton_group.appendChild(elements.menu_otherButton_datapod_2)
                                 elements.map_menu_body.appendChild(nekoapp.create.element(map_app,"hr",{class:"bg-light mx-2"}))
 
@@ -1603,7 +1603,7 @@ var map_app = new nekoapp({
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_shell_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_turnip_2)
                 
-				/*new bootstrap.Tooltip(this.moduleContents.menu_otherButton_alfareactor_1)*/
+				new bootstrap.Tooltip(this.moduleContents.menu_otherButton_alphareactor_1)
                 new bootstrap.Tooltip(this.moduleContents.menu_otherButton_datapod_2)
                 
                 new bootstrap.Tooltip(this.moduleContents.menu_enemyButton_veteran_2)
@@ -1643,7 +1643,7 @@ var map_app = new nekoapp({
                         if(map.user_settings.enemies.gigantix)map_app.modules.map_module.moduleContents.menu_enemyButton_gigant_1.setAttribute("checked","");
                         if(map.user_settings.enemies.veteran)map_app.modules.map_module.moduleContents.menu_enemyButton_veteran_1.setAttribute("checked","");
                         
-                        if(map.user_settings.other.alphareactor)map_app.modules.map_module.moduleContents.menu_otherButton_alfareactor_1.setAttribute("checked","");
+                        if(map.user_settings.other.alphareactor)map_app.modules.map_module.moduleContents.menu_otherButton_alphareactor_1.setAttribute("checked","");
                         if(map.user_settings.other.datapod)map_app.modules.map_module.moduleContents.menu_otherButton_datapod_2.setAttribute("checked","");
                     });
             },
@@ -1680,7 +1680,7 @@ var map_app = new nekoapp({
                 this.moduleContents.menu_foodButton_shell_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapShellTitle)
                 this.moduleContents.menu_foodButton_turnip_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapTurnipTitle)
                 
-                /*this.moduleContents.menu_otherButton_alfareactor_1.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherAlphaReactors)*/
+                this.moduleContents.menu_otherButton_alphareactor_1.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherAlphaReactors)
                 this.moduleContents.menu_otherButton_datapod_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherDatapods)
                 
                 this.moduleContents.menu_enemyButton_veteran_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapEmenyTypeVet)
@@ -1705,7 +1705,7 @@ var map_app = new nekoapp({
                         {
                             label: "localeString@github_button",
                             hyperlink: {
-                                URL: "//github.com/noroiweasel/pso2ngs-alfareactor",
+                                URL: "//github.com/noroiweasel/pso2ngs-alphareactor",
                                 useDefaultNavigation: true,
                                 target: "_blank"
                                 }
