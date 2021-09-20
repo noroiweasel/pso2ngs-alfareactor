@@ -1672,8 +1672,8 @@ var map_app = new nekoapp({
             moduleType: "headerModule",
             headerLayout: {
                 headerLogo: {},
-                headerNavigation: {
-                    items: [/*{
+                /*headerNavigation: {
+                    items: [{
                             label: "localeString@contribute_button",
                             hyperlink: {
                                 URL: "//discord.gg/AvgmpuX",
@@ -1708,9 +1708,9 @@ var map_app = new nekoapp({
                                         openLangMenu.click()
                                     }
                                 }
-                        }*/}
+                        }}
                     ]
-                }
+                }*/
             }
         }
     },
