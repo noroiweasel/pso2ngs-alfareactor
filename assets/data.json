@@ -44,6 +44,7 @@
 		},
 		"other": {
 			"alphareactor": {"iconUrl": "assets/markers/other/alphaReactor.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]},
+			"alphareactorChecked": {"iconUrl": "assets/markers/other/alphaReactor.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]},
 			"datapod": {"iconUrl": "assets/markers/other/dataPod.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]},
 			"datapodChecked": {"iconUrl": "assets/markers/other/dataPod.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]}
 		}
@@ -294,13 +295,7 @@
 				{"coordinates":[3287,3078],"tooltip":true,"id":"datapod-11","markable":true},
 				{"coordinates":[2832,3130],"tooltip":true,"id":"datapod-12","markable":true},
 				{"coordinates":[2300,3762],"tooltip":true,"id":"datapod-13","markable":true},
-				{"coordinates":[2199,3209],"tooltip":true,"id":"datapod-14","markable":true},
-				{"coordinates":[2159,3675],"tooltip":true,"id":"datapod-15","markable":true},
-				{"coordinates":[1252,4144],"tooltip":true,"id":"datapod-16","markable":true},
-				{"coordinates":[641,3909],"tooltip":true,"id":"datapod-17","markable":true},
-				{"coordinates":[596,4157],"tooltip":true,"id":"datapod-18","markable":true},
-				{"coordinates":[2649,4174],"tooltip":true,"id":"datapod-19","markable":true},
-				{"coordinates":[1802,5408],"tooltip":true,"id":"datapod-20","markable":true}
+				{"coordinates":[2199,3209],"tooltip":true,"id":"datapod-14","markable":true}
 			],		
 			"datapod": [
 				{"coordinates":[5951,2027],"tooltip":true,"id":"datapod-1","markable":true},

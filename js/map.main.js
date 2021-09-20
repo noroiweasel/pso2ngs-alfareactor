@@ -1613,7 +1613,7 @@ var map_app = new nekoapp({
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_shell_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_turnip_2)
                 
-				/*new bootstrap.Tooltip(this.moduleContents.menu_otherButton_alphareactor_2)*/
+				new bootstrap.Tooltip(this.moduleContents.menu_otherButton_alphareactor_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_otherButton_datapod_2)
                 
                 new bootstrap.Tooltip(this.moduleContents.menu_enemyButton_veteran_2)
@@ -1653,7 +1653,7 @@ var map_app = new nekoapp({
                         if(map.user_settings.enemies.gigantix)map_app.modules.map_module.moduleContents.menu_enemyButton_gigant_1.setAttribute("checked","");
                         if(map.user_settings.enemies.veteran)map_app.modules.map_module.moduleContents.menu_enemyButton_veteran_1.setAttribute("checked","");
                         
-                       /* if(map.user_settings.other.alphareactor)map_app.modules.map_module.moduleContents.menu_otherButton_alphareactor_2.setAttribute("checked","");*/
+                        if(map.user_settings.other.alphareactor)map_app.modules.map_module.moduleContents.menu_otherButton_alphareactor_2.setAttribute("checked","");
                         if(map.user_settings.other.datapod)map_app.modules.map_module.moduleContents.menu_otherButton_datapod_2.setAttribute("checked","");
                     });
             },
@@ -1690,7 +1690,7 @@ var map_app = new nekoapp({
                 this.moduleContents.menu_foodButton_shell_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapShellTitle)
                 this.moduleContents.menu_foodButton_turnip_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapTurnipTitle)
                 
-                /*this.moduleContents.menu_otherButton_alphareactor_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherAlphaReactors)*/
+                this.moduleContents.menu_otherButton_alphareactor_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherAlphaReactors)
                 this.moduleContents.menu_otherButton_datapod_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherDatapods)
                 
                 this.moduleContents.menu_enemyButton_veteran_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapEmenyTypeVet)
