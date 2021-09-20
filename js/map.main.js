@@ -170,14 +170,14 @@ var map_app = new nekoapp({
                                 alert_span1.innerHTML = "If you want to help me, please contact with me in "
                             let alert_a1 = document.createElement("a")
                                 alert_a1.style = alert_a_style
-                                alert_a1.href = "https://twitter.com/kosnag"
+                                alert_a1.href = "https://twitter.com/noroiitachi666"
                                 alert_a1.target = "_blank"
                                 alert_a1.innerHTML = "Twitter";
                             let alert_span2 = document.createElement("span")
                                 alert_span2.innerHTML = ", ";
                             let alert_a2 = document.createElement("a")
                                 alert_a2.style = alert_a_style
-                                alert_a2.href = "https://vk.com/kosnag"
+                                /*alert_a2.href = "https://vk.com/kosnag"*/
                                 alert_a2.target = "_blank"
                                 alert_a2.innerHTML = "VK";
                             let alert_span3 = document.createElement("span")
@@ -1168,6 +1168,7 @@ var map_app = new nekoapp({
                                                 "type": "checkbox",
                                                 "autocomplete": "off"
                                             }
+                                            text: "<img width='48px' src='assets/markers/other/alphaReactor.png'>"
                                         }),
                                         menu_otherButton_datapod_2: nekoapp.create.element(map_app,"label",{
                                             class: "btn btn-outline-custom-blue mx-1",
@@ -1177,7 +1178,7 @@ var map_app = new nekoapp({
                                                 "data-bs-placement": "bottom",
                                                 "data-bs-html": "true"
                                             },
-                                            text: "<img width='48px' src='assets/markers/other/alphaReactor.png'>"
+                                            text: "<img width='48px' src='assets/markers/other/dataPod.png'>"
                                         }),
                             menu_enemy_body: nekoapp.create.element(map_app,"div",{
                                     class: "my-3"
