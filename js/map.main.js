@@ -1167,8 +1167,7 @@ var map_app = new nekoapp({
                                             attr: {
                                                 "type": "checkbox",
                                                 "autocomplete": "off"
-                                            },
-                                            text: "<img width='48px' src='assets/markers/other/alphaReactor.png'>"
+                                            }
                                         }),
                                         menu_otherButton_datapod_2: nekoapp.create.element(map_app,"label",{
                                             class: "btn btn-outline-custom-blue mx-1",
@@ -1586,7 +1585,7 @@ var map_app = new nekoapp({
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_shell_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_turnip_2)
                 
-				new bootstrap.Tooltip(this.moduleContents.menu_otherButton_datapod_1)
+				/*new bootstrap.Tooltip(this.moduleContents.menu_otherButton_datapod_1)*/
                 new bootstrap.Tooltip(this.moduleContents.menu_otherButton_datapod_2)
                 
                 new bootstrap.Tooltip(this.moduleContents.menu_enemyButton_veteran_2)
@@ -1662,7 +1661,7 @@ var map_app = new nekoapp({
                 this.moduleContents.menu_foodButton_shell_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapShellTitle)
                 this.moduleContents.menu_foodButton_turnip_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapTurnipTitle)
                 
-                this.moduleContents.menu_otherButton_datapod_1.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherAlphaReactors)
+               /* this.moduleContents.menu_otherButton_datapod_1.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherAlphaReactors)*/
                 this.moduleContents.menu_otherButton_datapod_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherDatapods)
                 
                 this.moduleContents.menu_enemyButton_veteran_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapEmenyTypeVet)
