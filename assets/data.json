@@ -340,7 +340,7 @@
 			"gigantix": "mapEnemyTypeGig"
 		},
 		"other": {
-			"alphaReactor": "mapOtherAlphaReactors",
+			"alphareactor": "mapOtherAlphaReactors",
 			"datapod": "mapOtherDatapods"
 		}
 	},
@@ -762,11 +762,13 @@
 			"veteran": false
 		},
 		"other": {
+			"alphareactor": false
 			"datapod": false
 		},
 		"checked": {
 			"redBox": [],
-			"datapod": []
+			"datapod": [],
+			"alphareactor": []
 		}
 	}
 }
