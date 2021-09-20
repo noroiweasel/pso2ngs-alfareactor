@@ -626,10 +626,10 @@ var map_app = new nekoapp({
                                 attr: {"hidden": ""},
                                 text: nekoapp.create.localizedString(map_app, "mapHeader")
                             }),
-                            menu_tip: nekoapp.create.element(map_app,"div",{
+                            /*menu_tip: nekoapp.create.element(map_app,"div",{
                                 class: "border rounded-3 border-primary text-light text-center mt-3 mx-3",
                                 text: nekoapp.create.localizedString(map_app, "mapRightButtonTip")
-                            }),
+                            }),*/
                           /*  menu_rappyburst: nekoapp.create.element(map_app,"div",{
                                 class: "d-grid gap-2 mx-3",
                             }),
