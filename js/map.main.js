@@ -2,9 +2,9 @@ var map_app = new nekoapp({
     application: document.querySelector("map-app"),
     applicationInfo: {
         nekoappID: "18",
-        applicationTitle: "PSO2NGS Interactive Map",
+        applicationTitle: "PSO2NGS alphareactor Interactive Map",
         applicationVersion: "v2.0",
-        applicationURL: "//map.phantasystar.ru/"
+        applicationURL: "//noroiweasel.github.io/pso2ngs-alphareactor/"
     },
     applicationStylesheets: {
         default: "css/map.main.css",
@@ -170,14 +170,14 @@ var map_app = new nekoapp({
                                 alert_span1.innerHTML = "If you want to help me, please contact with me in "
                             let alert_a1 = document.createElement("a")
                                 alert_a1.style = alert_a_style
-                                alert_a1.href = "https://twitter.com/kosnag"
+                                alert_a1.href = "https://twitter.com/noroiitachi666"
                                 alert_a1.target = "_blank"
                                 alert_a1.innerHTML = "Twitter";
                             let alert_span2 = document.createElement("span")
                                 alert_span2.innerHTML = ", ";
                             let alert_a2 = document.createElement("a")
                                 alert_a2.style = alert_a_style
-                                alert_a2.href = "https://vk.com/kosnag"
+                                /*alert_a2.href = "https://vk.com/kosnag"*/
                                 alert_a2.target = "_blank"
                                 alert_a2.innerHTML = "VK";
                             let alert_span3 = document.createElement("span")
@@ -630,7 +630,7 @@ var map_app = new nekoapp({
                                 class: "border rounded-3 border-primary text-light text-center mt-3 mx-3",
                                 text: nekoapp.create.localizedString(map_app, "mapRightButtonTip")
                             }),
-                            /*menu_rappyburst: nekoapp.create.element(map_app,"div",{
+                          /*  menu_rappyburst: nekoapp.create.element(map_app,"div",{
                                 class: "d-grid gap-2 mx-3",
                             }),
                                 menu_rappyburst_button: nekoapp.create.element(map_app,"button",{
@@ -1161,6 +1161,24 @@ var map_app = new nekoapp({
                                     menu_otherButton_group: nekoapp.create.element(map_app,"button-group",{
                                         class: "d-flex justify-content-center",
                                     }),
+                                        menu_otherButton_alphareactor_1: nekoapp.create.element(map_app,"input",{
+                                            class: "btn-check",
+                                            id: "datapodCheckbox",
+                                            attr: {
+                                                "type": "checkbox",
+                                                "autocomplete": "off"
+                                            }
+                                        }),
+                                        menu_otherButton_alphareactor_2: nekoapp.create.element(map_app,"label",{
+                                            class: "btn btn-outline-custom-blue mx-1",
+                                            attr: {
+                                                "for": "datapodCheckbox",
+                                                "data-bs-toogle": "tooltip",
+                                                "data-bs-placement": "bottom",
+                                                "data-bs-html": "true"
+                                            },
+                                            text: "<img width='48px' src='assets/markers/other/alphaReactor.png'>"
+                                        }),
                                         menu_otherButton_datapod_1: nekoapp.create.element(map_app,"input",{
                                             class: "btn-check",
                                             id: "datapodCheckbox",
@@ -1314,7 +1332,7 @@ var map_app = new nekoapp({
                                 elements.map_menu_body.appendChild(elements.menu_other_body)
                                     elements.menu_other_body.appendChild(elements.menu_other_desc)
                                     elements.menu_other_body.appendChild(elements.menu_otherButton_group)
-                                        elements.menu_otherButton_group.appendChild(elements.menu_otherButton_datapod_1)
+                                        /*elements.menu_otherButton_group.appendChild(elements.menu_otherButton_alphareactor_1)*/
                                         elements.menu_otherButton_group.appendChild(elements.menu_otherButton_datapod_2)
                                 elements.map_menu_body.appendChild(nekoapp.create.element(map_app,"hr",{class:"bg-light mx-2"}))
 
@@ -1543,6 +1561,14 @@ var map_app = new nekoapp({
                         map.user_settings.enemies.gigantix = true;
                     map.save_settings();
                 });
+                elements.menu_otherButton_alphareactor_1.addEventListener("change",function(){
+                    map.toogle_markers(map.map_markers.other.datapod);
+                    if(map.user_settings.other.datapod)
+                        map.user_settings.other.datapod = false;
+                    else
+                        map.user_settings.other.datapod = true;
+                    map.save_settings();
+                });
                 elements.menu_otherButton_datapod_1.addEventListener("change",function(){
                     map.toogle_markers(map.map_markers.other.datapod);
                     if(map.user_settings.other.datapod)
@@ -1584,7 +1610,8 @@ var map_app = new nekoapp({
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_tomato_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_shell_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_turnip_2)
-
+                
+				new bootstrap.Tooltip(this.moduleContents.menu_otherButton_alphareactor_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_otherButton_datapod_2)
                 
                 new bootstrap.Tooltip(this.moduleContents.menu_enemyButton_veteran_2)
@@ -1623,8 +1650,9 @@ var map_app = new nekoapp({
                         
                         if(map.user_settings.enemies.gigantix)map_app.modules.map_module.moduleContents.menu_enemyButton_gigant_1.setAttribute("checked","");
                         if(map.user_settings.enemies.veteran)map_app.modules.map_module.moduleContents.menu_enemyButton_veteran_1.setAttribute("checked","");
-
-                        if(map.user_settings.other.datapod)map_app.modules.map_module.moduleContents.menu_otherButton_datapod_1.setAttribute("checked","");
+                        
+                        if(map.user_settings.other.alphareactor)map_app.modules.map_module.moduleContents.menu_otherButton_alphareactor_2.setAttribute("checked","");
+                        if(map.user_settings.other.datapod)map_app.modules.map_module.moduleContents.menu_otherButton_datapod_2.setAttribute("checked","");
                     });
             },
             onLocaleChange: function(){
@@ -1660,6 +1688,7 @@ var map_app = new nekoapp({
                 this.moduleContents.menu_foodButton_shell_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapShellTitle)
                 this.moduleContents.menu_foodButton_turnip_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapTurnipTitle)
                 
+                this.moduleContents.menu_otherButton_alphareactor_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherAlphaReactors)
                 this.moduleContents.menu_otherButton_datapod_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherDatapods)
                 
                 this.moduleContents.menu_enemyButton_veteran_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapEmenyTypeVet)
@@ -1684,7 +1713,7 @@ var map_app = new nekoapp({
                         {
                             label: "localeString@github_button",
                             hyperlink: {
-                                URL: "//github.com/kosnag/NGS_WorldMap",
+                                URL: "//github.com/noroiweasel/pso2ngs-alphareactor",
                                 useDefaultNavigation: true,
                                 target: "_blank"
                                 }
