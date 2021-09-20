@@ -1163,7 +1163,7 @@ var map_app = new nekoapp({
                                     }),
                                         menu_otherButton_alphareactor_1: nekoapp.create.element(map_app,"input",{
                                             class: "btn-check",
-                                            id: "datapodCheckbox",
+                                            id: "alphareactorCheckbox",
                                             attr: {
                                                 "type": "checkbox",
                                                 "autocomplete": "off"
@@ -1172,7 +1172,7 @@ var map_app = new nekoapp({
                                         menu_otherButton_alphareactor_2: nekoapp.create.element(map_app,"label",{
                                             class: "btn btn-outline-custom-blue mx-1",
                                             attr: {
-                                                "for": "datapodCheckbox",
+                                                "for": "alphareactorCheckbox",
                                                 "data-bs-toogle": "tooltip",
                                                 "data-bs-placement": "bottom",
                                                 "data-bs-html": "true"
@@ -1247,7 +1247,7 @@ var map_app = new nekoapp({
                 };
                         elements.ngs_map.appendChild(elements.map_menu)
                             elements.map_menu.appendChild(elements.menu_header)
-                            elements.map_menu.appendChild(elements.menu_tip)
+                            /*elements.map_menu.appendChild(elements.menu_tip)*/
                            /* elements.map_menu.appendChild(elements.menu_rappyburst)
                                 elements.menu_rappyburst.appendChild(elements.menu_rappyburst_button)
                                     elements.menu_rappyburst_button.appendChild(elements.menu_rappyburst_button_image1)
