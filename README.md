@@ -1,7 +1,7 @@
-# PSO2NGS alfareactor Interactive Map
+# PSO2NGS Interactive Map
 Interactive map of world of Phantasy Star Online 2: New Genesis with location of everything.
 
-URL: [https://noroiweasel.github.io/pso2ngs-alphareactor/](https://noroiweasel.github.io/pso2ngs-alphareactor/)
+URL: [https://map.phantasystar.ru](https://map.phantasystar.ru/)
 
 ## Tech Stack
 - Map Library: [LeafletJS](https://leafletjs.com/)

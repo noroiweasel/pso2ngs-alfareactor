@@ -630,7 +630,7 @@ var map_app = new nekoapp({
                                 class: "border rounded-3 border-primary text-light text-center mt-3 mx-3",
                                 text: nekoapp.create.localizedString(map_app, "mapRightButtonTip")
                             }),
-                           /* menu_rappyburst: nekoapp.create.element(map_app,"div",{
+                            /*menu_rappyburst: nekoapp.create.element(map_app,"div",{
                                 class: "d-grid gap-2 mx-3",
                             }),
                                 menu_rappyburst_button: nekoapp.create.element(map_app,"button",{
@@ -1230,12 +1230,12 @@ var map_app = new nekoapp({
                         elements.ngs_map.appendChild(elements.map_menu)
                             elements.map_menu.appendChild(elements.menu_header)
                             elements.map_menu.appendChild(elements.menu_tip)
-                            elements.map_menu.appendChild(elements.menu_rappyburst)
+                           /* elements.map_menu.appendChild(elements.menu_rappyburst)
                                 elements.menu_rappyburst.appendChild(elements.menu_rappyburst_button)
                                     elements.menu_rappyburst_button.appendChild(elements.menu_rappyburst_button_image1)
                                     elements.menu_rappyburst_button.appendChild(elements.menu_rappyburst_button_text1)
                                     elements.menu_rappyburst_button.appendChild(elements.menu_rappyburst_button_text2)
-                                    elements.menu_rappyburst_button.appendChild(elements.menu_rappyburst_button_image2)
+                                    elements.menu_rappyburst_button.appendChild(elements.menu_rappyburst_button_image2)*/
                             elements.map_menu.appendChild(nekoapp.create.element(map_app,"hr",{class:"bg-light mx-2"}))
                             elements.map_menu.appendChild(elements.map_menu_body)
 
@@ -1672,7 +1672,7 @@ var map_app = new nekoapp({
             moduleType: "headerModule",
             headerLayout: {
                 headerLogo: {},
-                headerNavigation: {
+                /*headerNavigation: {
                     items: [{
                             label: "localeString@contribute_button",
                             hyperlink: {
@@ -1710,7 +1710,7 @@ var map_app = new nekoapp({
                                 }
                         }}
                     ]
-                }
+                }*/
             }
         }
     },
