@@ -1673,7 +1673,7 @@ var map_app = new nekoapp({
             headerLayout: {
                 headerLogo: {},
                 headerNavigation: {
-                    items: [{
+                    items: [/*{
                             label: "localeString@contribute_button",
                             hyperlink: {
                                 URL: "//discord.gg/AvgmpuX",
@@ -1684,7 +1684,7 @@ var map_app = new nekoapp({
                         {
                             label: "localeString@github_button",
                             hyperlink: {
-                                URL: "//github.com/kosnag/NGS_WorldMap",
+                                URL: "//github.com/noroiweasel/pso2ngs-alfareactor",
                                 useDefaultNavigation: true,
                                 target: "_blank"
                                 }
@@ -1708,7 +1708,7 @@ var map_app = new nekoapp({
                                         openLangMenu.click()
                                     }
                                 }
-                        }}
+                        }*/}
                     ]
                 }
             }
