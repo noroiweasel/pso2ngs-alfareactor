@@ -1167,7 +1167,7 @@ var map_app = new nekoapp({
                                             attr: {
                                                 "type": "checkbox",
                                                 "autocomplete": "off"
-                                            }
+                                            },
                                             text: "<img width='48px' src='assets/markers/other/alphaReactor.png'>"
                                         }),
                                         menu_otherButton_datapod_2: nekoapp.create.element(map_app,"label",{
