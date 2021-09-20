@@ -2,7 +2,7 @@ var map_app = new nekoapp({
     application: document.querySelector("map-app"),
     applicationInfo: {
         nekoappID: "18",
-        applicationTitle: "PSO2NGS Interactive Map",
+        applicationTitle: "PSO2NGS alfariactor Interactive Map",
         applicationVersion: "v2.0",
         applicationURL: "//map.phantasystar.ru/"
     },

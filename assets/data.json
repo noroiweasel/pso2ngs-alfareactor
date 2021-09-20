@@ -43,6 +43,8 @@
 			"gigantix": {"iconUrl": "assets/markers/enemies/giga.png", "iconSize": [32,32], "iconAnchor": [16,16], "popupAnchor": [0,-16]}
 		},
 		"other": {
+			"datapod": {"iconUrl": "assets/markers/other/other.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]},
+			"datapodChecked": {"iconUrl": "assets/markers/other/other.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]}
 			"datapod": {"iconUrl": "assets/markers/other/alphaReactor.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]},
 			"datapodChecked": {"iconUrl": "assets/markers/other/alphaReactor.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]}
 		}
