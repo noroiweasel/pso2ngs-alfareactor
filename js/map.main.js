@@ -1702,7 +1702,7 @@ var map_app = new nekoapp({
         map_header: {
             moduleType: "headerModule",
             headerLayout: {
-                headerLogo: {},
+                headerLogo: {}
                 /*headerNavigation: {
                     items: [{
                             label: "localeString@contribute_button",
