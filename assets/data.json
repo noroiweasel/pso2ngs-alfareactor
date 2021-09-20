@@ -44,7 +44,7 @@
 		},
 		"other": {
 			"datapod": {"iconUrl": "assets/markers/other/dataPod.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]},
-			"datapodChecked": {"iconUrl": "assets/markers/other/dataPod.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]}
+			"datapodChecked": {"iconUrl": "assets/markers/other/dataPodChecked.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]}
 		}
 	},
 	"map_sections": {
@@ -340,7 +340,7 @@
 			"gigantix": "mapEnemyTypeGig"
 		},
 		"other": {
-			"alphareactor": "mapOtherAlphaReactors",
+			"alphaReactor": "mapOtherAlphaReactors",
 			"datapod": "mapOtherDatapods"
 		}
 	},
@@ -762,13 +762,11 @@
 			"veteran": false
 		},
 		"other": {
-			"alphareactor": false,
 			"datapod": false
 		},
 		"checked": {
 			"redBox": [],
-			"datapod": [],
-			"alphareactor": []
+			"datapod": []
 		}
 	}
 }
