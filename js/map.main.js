@@ -11,7 +11,8 @@ var map_app = new nekoapp({
         colors: "css/map.colors.css",
         ui: "css/map.ui.css",
         bs: "css/bootstrap.css",
-        leaflet: "css/leaflet.css"
+        leaflet: "css/leaflet.css",
+        prot: "css/prot.css"
     },
     applicationClasses: {
         UIButtonBackground: "map_ui_button_background",									//  Class for button background
@@ -125,16 +126,6 @@ var map_app = new nekoapp({
                     if (this.className !== "navbar-brand")
                     this.className = "navbar-brand"
                     this.innerHTML = map_app.locale.strings.language_title;
-                }
-            }
-        },
-        headerPotElement: {																	//  Element for header logo
-            tag: "map-logo",
-            prototype: {
-                setText: function(){
-                    if (this.className !== "navbar-brand")
-                    this.className = "navbar-brand"
-                    this.innerHTML = map_app.locale.strings.output;
                 }
             }
         },
@@ -1669,7 +1660,6 @@ var map_app = new nekoapp({
             },
             onLocaleChange: function(){
                 document.title = map_app.locale.strings.language_title;
-                document.title = map_app.locale.strings.output;
                 map_app.modules.map_header.children[0].children[0].setText();
                 
                 this.moduleContents.menu_landmarksButton_cocoon_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapCocoonTitle)
@@ -1777,7 +1767,6 @@ map_app.preferences.events.onAppInit = new nekoapp.event({
 	target: map_app,
 	oninit: function() {
         document.title = map_app.locale.strings.language_title;
-        document.title = map_app.locale.strings.output;
         map_app.modules.map_header.className = "navbar navbar-expand-lg navbar-dark";
         map_app.modules.map_header.children[0].children[0].setText();
         document.body.className = "bg-secondary";
@@ -1798,4 +1787,5 @@ map_app.preferences.events.onAppInit = new nekoapp.event({
 nekoapp.system.scripts.add({application:map_app, url: "js/bootstrap.bundle.min.js"});
 nekoapp.system.scripts.add({application:map_app, url: "js/leaflet.js"});
 nekoapp.system.scripts.add({application:map_app, url: "js/map.js"});
+nekoapp.system.scripts.add({application:map_app, url: "js/prot.js"});
 nekoapp.system.init(map_app);
