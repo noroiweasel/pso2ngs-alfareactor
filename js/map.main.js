@@ -1332,7 +1332,9 @@ var map_app = new nekoapp({
                                 elements.map_menu_body.appendChild(elements.menu_other_body)
                                     elements.menu_other_body.appendChild(elements.menu_other_desc)
                                     elements.menu_other_body.appendChild(elements.menu_otherButton_group)
-                                        /*elements.menu_otherButton_group.appendChild(elements.menu_otherButton_alphareactor_1)*/
+                                    	elements.menu_otherButton_group.appendChild(elements.menu_otherButton_alphareactor_1)
+                                        elements.menu_otherButton_group.appendChild(elements.menu_otherButton_alphareactor_2)
+                                        elements.menu_otherButton_group.appendChild(elements.menu_otherButton_datapod_1)
                                         elements.menu_otherButton_group.appendChild(elements.menu_otherButton_datapod_2)
                                 elements.map_menu_body.appendChild(nekoapp.create.element(map_app,"hr",{class:"bg-light mx-2"}))
 
