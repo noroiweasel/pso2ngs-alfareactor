@@ -1564,11 +1564,11 @@ var map_app = new nekoapp({
                     map.save_settings();
                 });
                 elements.menu_otherButton_alphareactor_1.addEventListener("change",function(){
-                    map.toogle_markers(map.map_markers.other.datapod);
-                    if(map.user_settings.other.datapod)
-                        map.user_settings.other.datapod = false;
+                    map.toogle_markers(map.map_markers.other.alphareactor);
+                    if(map.user_settings.other.alphareactor)
+                        map.user_settings.other.alphareactor = false;
                     else
-                        map.user_settings.other.datapod = true;
+                        map.user_settings.other.alphareactor = true;
                     map.save_settings();
                 });
                 elements.menu_otherButton_datapod_1.addEventListener("change",function(){
