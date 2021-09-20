@@ -1584,7 +1584,8 @@ var map_app = new nekoapp({
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_tomato_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_shell_2)
                 new bootstrap.Tooltip(this.moduleContents.menu_foodButton_turnip_2)
-
+                
+				new bootstrap.Tooltip(this.moduleContents.menu_otherButton_datapod_1)
                 new bootstrap.Tooltip(this.moduleContents.menu_otherButton_datapod_2)
                 
                 new bootstrap.Tooltip(this.moduleContents.menu_enemyButton_veteran_2)
@@ -1660,6 +1661,7 @@ var map_app = new nekoapp({
                 this.moduleContents.menu_foodButton_shell_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapShellTitle)
                 this.moduleContents.menu_foodButton_turnip_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapTurnipTitle)
                 
+                this.moduleContents.menu_otherButton_datapod_1.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherAlphaReactors)
                 this.moduleContents.menu_otherButton_datapod_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapOtherDatapods)
                 
                 this.moduleContents.menu_enemyButton_veteran_2.setAttribute("data-bs-original-title",map_app.locale.strings.mapEmenyTypeVet)

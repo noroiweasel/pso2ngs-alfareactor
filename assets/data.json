@@ -42,7 +42,7 @@
 			"veteran": {"iconUrl": "assets/markers/enemies/vet.png", "iconSize": [32,32], "iconAnchor": [16,16], "popupAnchor": [0,-16]},
 			"gigantix": {"iconUrl": "assets/markers/enemies/giga.png", "iconSize": [32,32], "iconAnchor": [16,16], "popupAnchor": [0,-16]}
 		},
-		"other": {
+		"alfareactor": {
 			"datapod": {"iconUrl": "assets/markers/other/alphaReactor.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]},
 			"datapodChecked": {"iconUrl": "assets/markers/other/alphaReactor.png", "iconSize": [26,26], "iconAnchor":[13,13], "popupAnchor": [0,-13]}
 		}
