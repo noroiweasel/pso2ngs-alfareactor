@@ -1625,8 +1625,9 @@ var map_app = new nekoapp({
                         
                         if(map.user_settings.enemies.gigantix)map_app.modules.map_module.moduleContents.menu_enemyButton_gigant_1.setAttribute("checked","");
                         if(map.user_settings.enemies.veteran)map_app.modules.map_module.moduleContents.menu_enemyButton_veteran_1.setAttribute("checked","");
-
-                        if(map.user_settings.other.datapod)map_app.modules.map_module.moduleContents.menu_otherButton_datapod_1.setAttribute("checked","");
+                        
+                        if(map.user_settings.other.alphareactor)map_app.modules.map_module.moduleContents.menu_otherButton_datapod_1.setAttribute("checked","");
+                        if(map.user_settings.other.datapod)map_app.modules.map_module.moduleContents.menu_otherButton_datapod_2.setAttribute("checked","");
                     });
             },
             onLocaleChange: function(){
