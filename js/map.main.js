@@ -1161,7 +1161,7 @@ var map_app = new nekoapp({
                                     menu_otherButton_group: nekoapp.create.element(map_app,"button-group",{
                                         class: "d-flex justify-content-center",
                                     }),
-                                        menu_otherButton_alfareactor_1: nekoapp.create.element(map_app,"input",{
+                                        /*menu_otherButton_alfareactor_1: nekoapp.create.element(map_app,"input",{
                                             class: "btn-check",
                                             id: "datapodCheckbox",
                                             attr: {
@@ -1178,7 +1178,7 @@ var map_app = new nekoapp({
                                                 "data-bs-html": "true"
                                             },
                                             text: "<img width='48px' src='assets/markers/other/alphaReactor.png'>"
-                                        }),
+                                        }),*/
                                         menu_otherButton_datapod_2: nekoapp.create.element(map_app,"input",{
                                             class: "btn-check",
                                             id: "datapodCheckbox",
